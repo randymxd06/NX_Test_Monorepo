@@ -2,8 +2,13 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "defaultBase": "master",
   "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
-    "production": ["default"],
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
+    "production": [
+      "default"
+    ],
     "sharedGlobals": []
   },
   "nxCloudId": "68e411d7e01fa80f1ac6c4d9",
@@ -21,6 +26,9 @@
           "watchDepsName": "watch-deps"
         }
       }
-    }
+    },
+    "@nx/react",
+    "@nx/nest",
+    "@nx/vite"
   ]
 }

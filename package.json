@@ -2,11 +2,19 @@
   "name": "@acap/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev:react": "nx dev frontend",
+    "dev:nest": "nx start:dev backend"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nx/js": "21.6.3",
+    "@nx/nest": "^21.6.3",
+    "@nx/node": "^21.6.3",
+    "@nx/react": "^21.6.3",
+    "@nx/vite": "^21.6.3",
+    "@nx/web": "^21.6.3",
+    "@nx/webpack": "^21.6.3",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
@@ -16,6 +24,7 @@
     "typescript": "~5.9.2"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/tarjeta-debito-remunerada/*"
   ]
 }
