@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "dev:react": "nx dev frontend",
-    "dev:nest": "nx start:dev backend"
+    "dev:nest": "nx start:dev backend",
+    "dev:tarjeta": "nx run-many --target=dev --projects=frontend,backend --parallel"
   },
   "private": true,
   "devDependencies": {

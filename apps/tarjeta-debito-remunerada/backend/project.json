@@ -1,0 +1,14 @@
+{
+    "name": "backend",
+    "root": "apps/tarjeta-debito-remunerada/backend",
+    "sourceRoot": "apps/tarjeta-debito-remunerada/backend/src",
+    "projectType": "application",
+    "targets": {
+        "dev": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "start:dev"
+            }
+        }
+    }
+}
