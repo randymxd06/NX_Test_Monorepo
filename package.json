@@ -5,7 +5,10 @@
   "scripts": {
     "dev:tdr-frontend": "nx dev tdr-frontend",
     "dev:tdr-backend": "nx start:dev tdr-backend",
-    "dev:tdr": "nx run-many --target=dev --projects=tdr-frontend,tdr-backend --parallel"
+    "dev:tdr": "nx run-many --target=dev --projects=tdr-frontend,tdr-backend --parallel",
+    "dev:pp-frontend": "nx dev pp-frontend",
+    "dev:pp-backend": "nx start:dev pp-backend",
+    "dev:pp": "nx run-many --target=dev --projects=pp-frontend,pp-backend --parallel"
   },
   "private": true,
   "devDependencies": {
@@ -26,6 +29,7 @@
   },
   "workspaces": [
     "packages/*",
-    "apps/tarjeta-debito-remunerada/*"
+    "apps/tarjeta-debito-remunerada/*",
+    "apps/prestamos-personales/*"
   ]
 }

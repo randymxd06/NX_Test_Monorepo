@@ -1,0 +1,14 @@
+{
+    "name": "pp-frontend",
+    "root": "apps/prestamos-personales/pp-frontend",
+    "sourceRoot": "apps/prestamos-personales/pp-frontend/src",
+    "projectType": "application",
+    "targets": {
+        "dev": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "dev"
+            }
+        }
+    }
+}
