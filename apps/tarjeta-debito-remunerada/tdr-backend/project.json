@@ -1,7 +1,7 @@
 {
-    "name": "backend",
-    "root": "apps/tarjeta-debito-remunerada/backend",
-    "sourceRoot": "apps/tarjeta-debito-remunerada/backend/src",
+    "name": "tdr-backend",
+    "root": "apps/tarjeta-debito-remunerada/tdr-backend",
+    "sourceRoot": "apps/tarjeta-debito-remunerada/tdr-backend/src",
     "projectType": "application",
     "targets": {
         "dev": {

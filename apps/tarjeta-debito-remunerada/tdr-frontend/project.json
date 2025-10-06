@@ -1,0 +1,14 @@
+{
+    "name": "tdr-frontend",
+    "root": "apps/tarjeta-debito-remunerada/tdr-frontend",
+    "sourceRoot": "apps/tarjeta-debito-remunerada/tdr-frontend/src",
+    "projectType": "application",
+    "targets": {
+        "dev": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "dev"
+            }
+        }
+    }
+}
